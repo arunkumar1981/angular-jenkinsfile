@@ -39,7 +39,7 @@ module.exports = function (config) {
     colors: true,
     logLevel: config.LOG_INFO,
     autoWatch: true,
-    browsers: ['chrome'],
+    browsers: ['Chrome'],
     junitReporter: {
       outputFile: 'test-results.xml'
     },
